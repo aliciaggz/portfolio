@@ -1,12 +1,11 @@
 .main {
-  background-color: rgb(134, 165, 156);
+  background-color: $lightgreen;
 }
 
 .section__intro {
-  height: 50vh;
-
   display: flex;
   justify-content: center;
+  margin-bottom: 60px;
   &--div {
     display: flex;
     flex-direction: column;
@@ -15,7 +14,18 @@
   }
 
   &--img {
-    width: 200px;
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
+    border: 6px dotted $darkgreen;
+    margin: 40px;
+  }
+  &--title {
+    font-size: 60px;
+    margin: 10px;
+  }
+  &--text {
+    font-size: 40px;
+    margin-bottom: 30px;
   }
 }
