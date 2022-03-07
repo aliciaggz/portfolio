@@ -1,9 +1,9 @@
 // @import 'core/mixins';
-// @import './core/Variables.scss';
+@import './core/variables.scss';
 // @import 'core/reset';
 @import 'pages/_index';
 @import 'layout/_header';
-// @import 'layout/_landing';
+@import 'layout/_hero';
 // @import 'layout/_main';
 // @import 'layout/_section-card-preview';
 // @import 'layout/_section-design';

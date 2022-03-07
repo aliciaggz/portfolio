@@ -1,15 +1,20 @@
 .header {
-  background-color: rgb(68, 163, 68);
-  width: 100%;
-  height: 20vh;
+  background-color: rgb(128, 252, 128);
 }
 
 .menu {
   position: fixed;
-  right: 0;
+  left: 0;
   width: 30vh;
   height: 100%;
-  background-color: rgb(61, 116, 116);
+  background-color: rgb(121, 194, 194);
+  transition: 350ms;
+
+  &.active {
+    left: -200px;
+    transition: 350ms;
+  }
+
   &__img {
     width: 40px;
     height: 40px;
@@ -22,5 +27,9 @@
     list-style: none;
     display: flex;
     flex-direction: column;
+    &--item {
+      font-size: 25px;
+      color: white;
+    }
   }
 }

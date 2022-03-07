@@ -1,16 +1,26 @@
 import '../styles/App.scss';
 import { useEffect, useState } from 'react';
-import menu from '../images/menu.png';
+
 // Fichero src/components/App.js
 
 import { Link, Route } from 'react-router-dom';
+import * as FaIcons from 'react-icons/fa';
 
 const App = () => {
+  const [sidebar, setSidebar] = useState(false);
+
+  const handleNavButton = () => {
+    setSidebar(!sidebar);
+  };
+
   return (
     <div>
       <header className="header">
-        <img className="menu__img" src={menu} alt="" />
-        <nav className="menu">
+        <div className="menu-icon">
+          <FaIcons.FaBars onClick={handleNavButton} />
+        </div>
+
+        <nav className={sidebar ? 'menu active' : 'menu'}>
           <ul className="menu__list">
             <li className="menu__list--item">Inicio</li>
             <li className="menu__list--item">Sobre Mi</li>
@@ -22,9 +32,16 @@ const App = () => {
       <main className="main">
         <section className="section__intro">
           <div className="section__intro--div">
-            <h1>Hola, me llamo Alicia Gallego</h1>
-            <p>y soy Front-End Developer</p>
-            <i className="fab fa-linkedin"></i>
+            <img
+              className="section__intro--img"
+              src="https://www.giftegwuenu.dev/assets/static/gift_transparent.d042d20.ee252893d96f0605601786b4ae04869c.svg"
+              alt=""
+            />
+            <h1 className="section__intro--title">
+              Hola, me llamo Alicia Gallego
+            </h1>
+            <p className="section__intro--text">y soy Front-End Developer</p>
+            <FaIcons.FaLinkedin />
           </div>
           <div className="section__intro--div">
             <img src="" alt="" />
