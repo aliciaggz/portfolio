@@ -5,9 +5,9 @@
 .menu {
   position: fixed;
   left: 0;
-  width: 30vh;
+  width: 25vh;
   height: 100%;
-  background-color: rgb(121, 194, 194);
+  background-color: $darkgreen;
   transition: 350ms;
 
   &.active {
@@ -35,6 +35,13 @@
     &--item {
       font-size: 80px;
       color: white;
+      padding: 40px;
+
+      &:hover {
+        transition: 350ms;
+        text-shadow: 2px 2px 4px #d1d1d1;
+        transform: scale(1.03);
+      }
     }
   }
 }

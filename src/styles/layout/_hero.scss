@@ -17,8 +17,10 @@
     width: 500px;
     height: 500px;
     border-radius: 50%;
-    border: 6px dotted $darkgreen;
-    margin: 40px;
+
+    background-color: rgba(255, 255, 255, 0.596);
+    margin: 50px;
+    margin-top: 170px;
   }
   &--title {
     font-size: 60px;
@@ -27,5 +29,13 @@
   &--text {
     font-size: 40px;
     margin-bottom: 30px;
+  }
+  &--list {
+    list-style: none;
+    display: flex;
+  }
+  &--icons {
+    height: 80px;
+    width: 80px;
   }
 }

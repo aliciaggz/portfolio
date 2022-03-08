@@ -41,8 +41,14 @@ const App = () => {
               Hola, me llamo Alicia Gallego
             </h1>
             <p className="section__intro--text">y soy Front-End Developer</p>
-            <FaIcons.FaLinkedin />
-            <FaIcons.FaGithubSquare />
+            <ul className="section__intro--list">
+              <li>
+                <FaIcons.FaLinkedin className="section__intro--icons" />
+              </li>
+              <li>
+                <FaIcons.FaGithubSquare className="section__intro--icons" />
+              </li>
+            </ul>
           </div>
           <div className="section__intro--div">
             <img src="" alt="" />
@@ -50,7 +56,7 @@ const App = () => {
         </section>
 
         <section className="section__aboutme">
-          <h1 className="section__aboutme--title">Sobre mi</h1>
+          <h1 className="section__aboutme--title">Sobre mí</h1>
 
           <p className="section__aboutme--text">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe
@@ -62,7 +68,6 @@ const App = () => {
 
         <section className="portfolio">
           <h1 className="portfolio__title">Portfolio</h1>
-          <p></p>
 
           <ul className="portfolio__list">
             <li className="portfolio__list--item">
@@ -71,16 +76,23 @@ const App = () => {
             <li className="portfolio__list--item">
               <div className="image dos"></div>
             </li>
-            <li className="portfolio__list--item tres"></li>
+            <li className="portfolio__list--item">
+              <div className="image tres"></div>
+            </li>
             <li className="portfolio__list--item cuatro"></li>
             <li className="portfolio__list--item uno"></li>
             <li className="portfolio__list--item dos"></li>
           </ul>
         </section>
 
-        <section>
-          <h1>Contacto</h1>
-          <form action=""></form>
+        <section className="contact">
+          <h1 className="contact__title">Contacto</h1>
+          <form id="form" className="top">
+            <input type="text" placeholder="NAME" />
+            <input type="text" placeholder="E-MAIL" />
+            <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+            <input id="submit" type="submit" value="GO!"></input>
+          </form>
         </section>
       </main>
     </div>
