@@ -1,12 +1,17 @@
 {
   "files": {
-    "main.css": "./static/css/main.31d6cfe0.css",
-    "main.js": "./static/js/main.0efae2ce.js",
+    "main.css": "./static/css/main.9c6744ae.css",
+    "main.js": "./static/js/main.a1fde914.js",
+    "static/media/anime.png": "./static/media/anime.a9b0a50411a98ce6b7d3.png",
+    "static/media/alicia.png": "./static/media/alicia.207adce532ad5f37b216.png",
+    "static/media/dice.png": "./static/media/dice.852bace6fb2a6a7d0d11.png",
+    "static/media/game.png": "./static/media/game.4ad8efa5365f70be04c0.png",
     "index.html": "./index.html",
-    "main.0efae2ce.js.map": "./static/js/main.0efae2ce.js.map"
+    "main.9c6744ae.css.map": "./static/css/main.9c6744ae.css.map",
+    "main.a1fde914.js.map": "./static/js/main.a1fde914.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d6cfe0.css",
-    "static/js/main.0efae2ce.js"
+    "static/css/main.9c6744ae.css",
+    "static/js/main.a1fde914.js"
   ]
 }
