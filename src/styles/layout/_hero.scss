@@ -5,7 +5,7 @@
 .section__intro {
   display: flex;
   justify-content: center;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
   &--div {
     display: flex;
     flex-direction: column;
@@ -14,8 +14,8 @@
   }
 
   &--img {
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     border-radius: 50%;
 
     background-color: rgba(255, 255, 255, 0.596);
@@ -23,11 +23,12 @@
     margin-top: 170px;
   }
   &--title {
-    font-size: 60px;
-    margin: 10px;
+    font-size: 80px;
+    margin: 30px;
+    text-align: center;
   }
   &--text {
-    font-size: 40px;
+    font-size: 60px;
     margin-bottom: 30px;
   }
   &--list {
@@ -37,5 +38,11 @@
   &--icons {
     height: 70px;
     width: 70px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-right: 10px;
+    &:hover {
+      fill: rgba(211, 142, 191, 0.74);
+    }
   }
 }

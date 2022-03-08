@@ -6,6 +6,7 @@ import * as FaIcons from 'react-icons/fa';
 import * as IoIcons from 'react-icons/io';
 import Header from './Header';
 import AboutMe from './Aboutme';
+import Footer from './Footer';
 
 const App = () => {
   const [sidebar, setSidebar] = useState(false);
@@ -102,14 +103,28 @@ const App = () => {
 
         <section className="contact">
           <h1 className="contact__title">Contacto</h1>
-          <form id="form" className="top">
-            <input type="text" placeholder="NAME" />
-            <input type="text" placeholder="E-MAIL" />
+          <form className="contact__form" id="form">
+            <input
+              className="contact__form--input"
+              type="text"
+              placeholder="NAME"
+            />
+            <input
+              className="contact__form--input"
+              type="text"
+              placeholder="E-MAIL"
+            />
             <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
-            <input id="submit" type="submit" value="GO!"></input>
+            <input
+              className="contact__form--input"
+              id="submit"
+              type="submit"
+              value="GO!"
+            ></input>
           </form>
         </section>
       </main>
+      <Footer />
     </div>
   );
 };
