@@ -1,11 +1,11 @@
 import '../styles/App.scss';
 import { useEffect, useState } from 'react';
 import photome from '../images/alicia.png';
-import anime from '../images/anime.png';
-import dice from '../images/dice.png';
-import game from '../images/game.png';
 import { Link, Route } from 'react-router-dom';
 import * as FaIcons from 'react-icons/fa';
+import * as IoIcons from 'react-icons/io';
+import Header from './Header';
+import AboutMe from './Aboutme';
 
 const App = () => {
   const [sidebar, setSidebar] = useState(false);
@@ -16,6 +16,7 @@ const App = () => {
 
   return (
     <div>
+      {/* <Header /> */}
       <header className="header">
         <div className="menu__icon">
           <FaIcons.FaBars
@@ -43,10 +44,31 @@ const App = () => {
             <p className="section__intro--text">y soy Front-End Developer</p>
             <ul className="section__intro--list">
               <li>
-                <FaIcons.FaLinkedin className="section__intro--icons" />
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.linkedin.com/in/aliciagallegogonzalez/"
+                >
+                  <FaIcons.FaLinkedin className="section__intro--icons" />
+                </a>
               </li>
               <li>
-                <FaIcons.FaGithubSquare className="section__intro--icons" />
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/aliciaggz"
+                >
+                  <FaIcons.FaGithubSquare className="section__intro--icons" />
+                </a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/aliciaggz"
+                >
+                  <IoIcons.IoMdMail className="section__intro--icons" />
+                </a>
               </li>
             </ul>
           </div>
@@ -55,16 +77,7 @@ const App = () => {
           </div>
         </section>
 
-        <section className="section__aboutme">
-          <h1 className="section__aboutme--title">Sobre mí</h1>
-
-          <p className="section__aboutme--text">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe
-            voluptas labore facere voluptatem modi cupiditate eius rem, eligendi
-            beatae voluptatibus rerum nam, magnam tenetur quaerat eos sint,
-            minus asperiores suscipit.
-          </p>
-        </section>
+        <AboutMe />
 
         <section className="portfolio">
           <h1 className="portfolio__title">Portfolio</h1>
@@ -79,7 +92,9 @@ const App = () => {
             <li className="portfolio__list--item">
               <div className="image tres"></div>
             </li>
-            <li className="portfolio__list--item cuatro"></li>
+            <li className="portfolio__list--item ">
+              <div className="image cuatro"></div>
+            </li>
             <li className="portfolio__list--item uno"></li>
             <li className="portfolio__list--item dos"></li>
           </ul>
