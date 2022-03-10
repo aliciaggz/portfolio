@@ -1,6 +1,5 @@
 import '../styles/App.scss';
 import { useEffect, useState } from 'react';
-
 import { Link, Route } from 'react-router-dom';
 import * as FaIcons from 'react-icons/fa';
 import * as IoIcons from 'react-icons/io';
@@ -9,6 +8,7 @@ import AboutMe from './Aboutme';
 import Footer from './Footer';
 import Hero from './Hero';
 import Portfolio from './Portfolio';
+import Contact from './Contact';
 
 const App = () => {
   const [sidebar, setSidebar] = useState(false);
@@ -42,28 +42,7 @@ const App = () => {
 
         <AboutMe />
         <Portfolio />
-        <section className="contact">
-          <h1 className="contact__title">Contacto</h1>
-          <form className="contact__form" id="form">
-            <input
-              className="contact__form--input"
-              type="text"
-              placeholder="NAME"
-            />
-            <input
-              className="contact__form--input"
-              type="text"
-              placeholder="E-MAIL"
-            />
-            <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
-            <input
-              className="contact__form--input"
-              id="submit"
-              type="submit"
-              value="GO!"
-            ></input>
-          </form>
-        </section>
+        <Contact />
       </main>
       <Footer />
     </div>

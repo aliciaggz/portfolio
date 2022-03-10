@@ -13,17 +13,16 @@
   }
   &__form {
     &--input {
-      color: $grey;
-      font-size: 0.875em;
-
-      width: 470px;
-      height: 50px;
+      font-size: 2em;
+      font-family: 'Dosis', sans-serif;
+      width: 600px;
+      height: 100px;
       padding: 0px 15px 0px 15px;
 
-      background: transparent;
+      background: rgba(216, 252, 215, 0.164);
       outline: none;
 
-      border: solid 1px #525252;
+      border: solid 3px black;
       border-bottom: none;
 
       transition: all 0.3s ease-in-out;
@@ -33,30 +32,30 @@
 
 #form {
   position: relative;
-  width: 500px;
+  width: 600px;
   margin: 50px auto 100px auto;
 }
 
 input:hover {
-  background: #ddd4ce88;
+  background: #e7bbe498;
   color: $grey;
 }
 
 textarea {
-  width: 470px;
-  max-width: 470px;
-  height: 110px;
-  max-height: 110px;
+  width: 600px;
+
+  height: 160px;
+
   padding: 15px;
 
   background: transparent;
   outline: none;
 
-  color: #726659;
+  color: #222222;
   font-family: 'Lato', sans-serif;
-  font-size: 0.875em;
+  font-size: 2em;
 
-  border: solid 1px #525252;
+  border: solid 3px black;
 
   transition: all 0.3s ease-in-out;
 }
@@ -67,19 +66,19 @@ textarea:hover {
 }
 
 #submit {
-  width: 470px;
+  width: 600px;
 
   padding: 0;
   margin: -5px 0px 0px 0px;
 
   font-family: 'Lato', sans-serif;
-  font-size: 0.875em;
-  color: #525252;
+  font-size: 2em;
+  color: #222222;
 
   outline: none;
   cursor: pointer;
 
-  border: solid 1px #525252;
+  border: solid 3px black;
   border-top: none;
 }
 
