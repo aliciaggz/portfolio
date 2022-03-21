@@ -1,0 +1,10 @@
+.footer {
+  background-color: $grey;
+  height: 5vh;
+
+  &__container {
+    &--text {
+      color: wheat;
+    }
+  }
+}
