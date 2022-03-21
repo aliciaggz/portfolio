@@ -10,103 +10,25 @@
   }
   &__list {
     list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    &--item {
-      width: 325px;
-      height: 325px;
-      overflow: hidden;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 
-      &.cuatro {
-        background-image: linear-gradient(
-            rgba(2, 2, 2, 0.45),
-            rgba(12, 12, 12, 0.45)
-          ),
-          url(../../images/game.png);
-        background-size: cover;
-        width: 325px;
-        height: 325px;
-        transition: 1s ease-in-out;
-        &:hover {
-          background-image: linear-gradient(
-              rgba(2, 2, 2, 0.171),
-              rgba(12, 12, 12, 0.226)
-            ),
-            url(../../images/game.png);
-        }
+    width: 100%;
+    height: 50%;
+    &--item {
+      overflow: hidden;
+      position: relative;
+      & > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+        inset: 0;
       }
     }
   }
   &__img {
     width: 100%;
-  }
-}
-
-.uno {
-  background-image: linear-gradient(rgba(2, 2, 2, 0.45), rgba(12, 12, 12, 0.45)),
-    url(../../images/anime.png);
-  background-size: cover;
-  width: 325px;
-  height: 325px;
-  transition: 1s ease-in-out;
-  &:hover {
-    transform: scale(1.3);
-    background-image: linear-gradient(
-        rgba(2, 2, 2, 0.171),
-        rgba(12, 12, 12, 0.226)
-      ),
-      url(../../images/anime.png);
-  }
-}
-.dos {
-  background-image: linear-gradient(rgba(2, 2, 2, 0.45), rgba(12, 12, 12, 0.45)),
-    url(../../images/dice.png);
-  background-size: cover;
-  width: 325px;
-  height: 325px;
-  transition: 1s ease-in-out;
-  &:hover {
-    transform: scale(1.3);
-    background-image: linear-gradient(
-        rgba(2, 2, 2, 0.171),
-        rgba(12, 12, 12, 0.226)
-      ),
-      url(../../images/dice.png);
-  }
-}
-.tres {
-  background-image: linear-gradient(rgba(2, 2, 2, 0.45), rgba(12, 12, 12, 0.45)),
-    url(../../images/game.png);
-  background-size: cover;
-  width: 325px;
-  height: 325px;
-  transition: 1s ease-in-out;
-  &:hover {
-    transform: scale(1.3);
-    background-image: linear-gradient(
-        rgba(2, 2, 2, 0.171),
-        rgba(12, 12, 12, 0.226)
-      ),
-      url(../../images/game.png);
-  }
-}
-
-.cuatro {
-  background-image: linear-gradient(
-      rgba(2, 2, 2, 0.205),
-      rgba(12, 12, 12, 0.45)
-    ),
-    url(../../images/drumkit.png);
-  background-size: cover;
-  width: 325px;
-  height: 325px;
-  transition: 1s ease-in-out;
-  &:hover {
-    transform: scale(1.3);
-    background-image: linear-gradient(
-        rgba(2, 2, 2, 0.171),
-        rgba(12, 12, 12, 0.226)
-      ),
-      url(../../images/drumkit.png);
   }
 }

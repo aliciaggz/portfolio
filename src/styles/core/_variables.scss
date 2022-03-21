@@ -4,3 +4,15 @@ $green: #83eb6d;
 $darkgreen: #e2a0a0f1;
 
 $grey: #1d3811;
+
+// media queries
+@mixin tablet {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media (min-width: 1024px) {
+    @content;
+  }
+}

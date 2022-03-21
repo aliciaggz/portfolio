@@ -1,10 +1,17 @@
 .footer {
-  background-color: $grey;
-  height: 5vh;
+  background-color: rgb(86, 143, 97);
+  height: 10vh;
 
   &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100%;
+    padding: 50px;
     &--text {
-      color: wheat;
+      font-size: 20px;
+      color: white;
     }
   }
 }
