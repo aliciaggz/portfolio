@@ -6,19 +6,19 @@ const Contact = (props) => {
         <input
           className="contact__form--input"
           type="text"
-          placeholder="NAME"
+          placeholder="Nombre"
         />
         <input
           className="contact__form--input"
           type="text"
-          placeholder="E-MAIL"
+          placeholder="E-mail"
         />
-        <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+        <textarea id="message" type="text" placeholder="Mensaje"></textarea>
         <input
           className="contact__form--input"
           id="submit"
           type="submit"
-          value="GO!"
+          value="Enviar"
         ></input>
       </form>
     </section>

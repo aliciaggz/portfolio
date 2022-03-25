@@ -1,4 +1,4 @@
-import photome from '../images/alicia.png';
+import photome from '../images/aliciadibujo.png';
 import * as FaIcons from 'react-icons/fa';
 import * as IoIcons from 'react-icons/io';
 const Hero = (props) => {
