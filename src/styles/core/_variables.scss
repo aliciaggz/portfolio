@@ -5,6 +5,10 @@ $darkgreen: #e2a0a0f1;
 
 $grey: #1d3811;
 
+$body: #fef3c7;
+$stroke: #111827;
+$shadow: #1d3811;
+
 // media queries
 @mixin tablet {
   @media (min-width: 768px) {

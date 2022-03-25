@@ -1,7 +1,7 @@
 const Contact = (props) => {
   return (
     <section className="contact">
-      <h1 className="contact__title">Contacto</h1>
+      <h1 className="contact__title stroke shadow">Contacto</h1>
       <form className="contact__form" id="form">
         <input
           className="contact__form--input"

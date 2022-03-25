@@ -6,7 +6,7 @@ import game from '../images/game.png';
 const Portfolio = (props) => {
   return (
     <section className="portfolio">
-      <h1 className="portfolio__title">Portfolio</h1>
+      <h1 className="portfolio__title stroke shadow">Portfolio</h1>
 
       <ul className="portfolio__list">
         <li className="portfolio__list--item">

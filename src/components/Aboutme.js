@@ -1,7 +1,7 @@
 const AboutMe = (props) => {
   return (
     <section className="section__aboutme">
-      <h1 className="section__aboutme--title">Sobre mí</h1>
+      <h1 className="section__aboutme--title stroke shadow">Sobre mí</h1>
 
       <p className="section__aboutme--text">
         Al terminar mis estudios universitarios en mitad de una pandemia, empecé
