@@ -2,7 +2,7 @@
 
 ## Welcome!
 
-Hello everyone this is my personal portfolio. Here you will find some details about me as well as my latest projects and a form to contact me.
+Alicia's portfolio made with React.
 
 <summary>Table of Contents</summary>
   <ol>
@@ -56,7 +56,6 @@ To start this project you need to follow this steps:
 - HTML5
 - SCSS
 - Javascript
-- [HP API](https://hp-api.herokuapp.com/)
 
 ## Author
 
