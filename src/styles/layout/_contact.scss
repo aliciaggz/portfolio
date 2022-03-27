@@ -6,6 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: white;
 
   &__title {
     margin-top: 60px;
@@ -37,7 +38,7 @@
 }
 
 input:hover {
-  background: #e7bbe498;
+  background: #c0e7bb98;
   color: $grey;
 }
 
@@ -61,7 +62,7 @@ textarea {
 }
 
 textarea:hover {
-  background: #cccac994;
+  background: #c0e7bb98;
   color: $grey;
 }
 
