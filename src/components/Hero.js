@@ -7,7 +7,7 @@ const Hero = (props) => {
       <div className="section__intro--div">
         <img className="section__intro--img" src={photome} alt="" />
         <div className="section__intro--div1">
-          <h1 className="section__intro--title">
+          <h1 className="section__intro--title ">
             Hola, me llamo Alicia Gallego
           </h1>
 

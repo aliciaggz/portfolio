@@ -38,6 +38,7 @@
     cursor: pointer;
     border-radius: 10px;
     margin: 30px;
+    color: $grey;
     @include desktop {
       display: none;
     }
