@@ -1,8 +1,10 @@
+import line2 from '../images/capa3.png';
+
 const AboutMe = (props) => {
   return (
     <section className="section__aboutme">
       <h1 className="section__aboutme--title stroke shadow">Sobre mí</h1>
-
+      <img className="line2" src={line2} alt="" />
       <p className="section__aboutme--text">
         Al terminar mis estudios universitarios en mitad de una pandemia, empecé
         a replantearme mi futuro y decidí enfocar mi camino hacia el mundo de la

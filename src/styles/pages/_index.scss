@@ -4,3 +4,26 @@
   box-sizing: border-box;
   font-family: 'Dosis', sans-serif;
 }
+
+.circle {
+  position: absolute;
+  width: 250px;
+  height: 200px;
+  z-index: 0;
+  left: 0px;
+}
+
+.line {
+  position: absolute;
+  width: 360px;
+  height: 120px;
+  z-index: 0;
+}
+
+.line2 {
+  position: absolute;
+  width: 250px;
+  height: 140px;
+  z-index: 0;
+  left: 0;
+}

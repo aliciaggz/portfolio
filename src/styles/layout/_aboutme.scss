@@ -8,9 +8,15 @@
   &--title {
     margin-bottom: 50px;
     font-size: 80px;
+    @include desktop {
+      font-size: 60px;
+    }
   }
   &--text {
     width: 70%;
     font-size: 40px;
+    @include desktop {
+      font-size: 30px;
+    }
   }
 }

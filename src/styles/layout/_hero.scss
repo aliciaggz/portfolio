@@ -7,7 +7,6 @@
   justify-content: center;
 
   margin-bottom: 100px;
-  padding-top: 30px;
 
   @include desktop {
     display: flex;
@@ -43,10 +42,12 @@
     background-color: rgba(255, 255, 255, 0.596);
     margin: 50px;
     margin-top: 170px;
+
     @include desktop {
       width: 400px;
       height: 400px;
       margin: 0;
+      margin-top: 100px;
     }
   }
   &--title {
@@ -56,6 +57,7 @@
     font-family: 'Amatic SC', cursive;
     font-weight: 700;
     color: #642922;
+    z-index: 1;
     @include desktop {
       width: 800px;
       font-size: 60px;
