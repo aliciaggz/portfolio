@@ -1,13 +1,13 @@
 import photome from '../images/aliciadibujo.png';
 import * as FaIcons from 'react-icons/fa';
 import * as IoIcons from 'react-icons/io';
-import circle from '../images/capa1.png';
-import line from '../images/capa2.png';
+import circle from '../images/circle.png';
+import lea from '../images/lea.png';
 
 const Hero = (props) => {
   return (
     <section className="section__intro">
-      <img className="circle" src={circle} alt="" />
+      <img className="back__image lea" src={lea} alt="" />
       <div className="section__intro--div">
         <img className="section__intro--img" src={photome} alt="" />
         <div className="section__intro--div1">
@@ -45,10 +45,8 @@ const Hero = (props) => {
           </ul>
         </div>
       </div>
-      <div className="section__intro--div">
-        <img src="" alt="" />
-      </div>
-      <img className="line" src={line} alt="" />
+      <div className="section__intro--div"></div>
+      <img className="back__image circle" src={circle} alt="" />
     </section>
   );
 };

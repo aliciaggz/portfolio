@@ -1,6 +1,8 @@
+import beans from '../images/beans.png';
 const Contact = (props) => {
   return (
     <section className="contact">
+      <img className="back__image beans" src={beans} alt="" />
       <h1 className="contact__title stroke shadow">Contacto</h1>
       <form className="contact__form" id="form">
         <input

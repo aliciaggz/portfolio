@@ -5,28 +5,40 @@
   font-family: 'Dosis', sans-serif;
 }
 
+.back__image {
+  position: absolute;
+}
+
+.lea {
+  width: 220px;
+  height: 220px;
+  right: 90px;
+  top: -30px;
+  transform: rotate(-50deg);
+}
+
 .circle {
-  position: absolute;
-  width: 250px;
-  height: 200px;
-  z-index: 0;
-  display: none;
-  left: 0px;
-}
-
-.line {
-  position: absolute;
-  width: 360px;
-  height: 120px;
-  display: none;
-  z-index: 0;
-}
-
-.line2 {
-  position: absolute;
-  width: 250px;
-  height: 140px;
-  display: none;
-  z-index: 0;
+  width: 820px;
+  height: 820px;
   left: 0;
+  top: 400px;
+}
+
+.leave {
+  width: 720px;
+  height: 720px;
+  top: 1300px;
+  left: -200px;
+}
+
+.cloud {
+  right: 0;
+  top: 2150px;
+}
+
+.beans {
+  width: 180px;
+  height: 180px;
+  left: 40px;
+  top: 3300px;
 }
