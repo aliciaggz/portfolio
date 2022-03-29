@@ -1,4 +1,6 @@
 import beans from '../images/beans.png';
+import toad from '../images/toad.png';
+
 const Contact = (props) => {
   return (
     <section className="contact">
@@ -23,6 +25,7 @@ const Contact = (props) => {
           value="Enviar"
         ></input>
       </form>
+      <img className="back__image toad" src={toad} alt="" />
     </section>
   );
 };

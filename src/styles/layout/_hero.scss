@@ -65,28 +65,12 @@
       margin-top: 100px;
     }
   }
-  &--title {
-    font-size: 80px;
-    margin: 30px;
-    text-align: center;
-    font-family: 'Amatic SC', cursive;
-    font-weight: 700;
-    color: #642922;
-    z-index: 1;
-    @include desktop {
-      width: 800px;
-      font-size: 50px;
-      margin-bottom: 0px;
-      margin-top: 100px;
-    }
-  }
+
   &--title2 {
     font-size: 80px;
     margin: 30px;
     text-align: center;
-    font-family: 'Amatic SC', cursive;
-    font-weight: 700;
-    color: #642922;
+
     z-index: 1;
     @include desktop {
       width: 800px;
@@ -102,8 +86,9 @@
     font-family: 'Amatic SC', cursive;
 
     @include desktop {
-      font-size: 40px;
-      width: 300px;
+      font-size: 50px;
+      font-weight: 700;
+      width: 400px;
       margin: 0;
       margin-top: 20px;
     }
