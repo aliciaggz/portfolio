@@ -61,8 +61,38 @@
     @include desktop {
       width: 800px;
       font-size: 60px;
-      margin-bottom: 20px;
+      margin-bottom: 0px;
       margin-top: 100px;
+    }
+  }
+  &--title {
+    font-size: 80px;
+    margin: 30px;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    color: #642922;
+    z-index: 1;
+    @include desktop {
+      width: 800px;
+      font-size: 50px;
+      margin-bottom: 0px;
+      margin-top: 100px;
+    }
+  }
+  &--title2 {
+    font-size: 80px;
+    margin: 30px;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    color: #642922;
+    z-index: 1;
+    @include desktop {
+      width: 800px;
+      font-size: 60px;
+      margin-bottom: 0px;
+      margin-top: 10px;
     }
   }
   &--text {
@@ -72,9 +102,10 @@
     font-family: 'Amatic SC', cursive;
 
     @include desktop {
-      font-size: 50px;
-      width: 700px;
+      font-size: 40px;
+      width: 300px;
       margin: 0;
+      margin-top: 20px;
     }
   }
   &--list {
@@ -93,7 +124,7 @@
       width: 40px;
     }
     &:hover {
-      fill: rgba(211, 142, 191, 0.74);
+      fill: rgb(80, 29, 29);
     }
   }
 }
